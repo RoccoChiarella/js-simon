@@ -25,7 +25,7 @@ $(document).ready(function() {
         }
     }
 
-    $('esito').append("<p>Hai fatto "+punteggio+" punti e i numeri che hai indovinato sono: "+numeriIndovinati+"</p>");
+    $('.esito').append("<p>Hai fatto "+punteggio+" punti e i numeri che hai indovinato sono: "+numeriIndovinati+"</p>");
 
     function tempAlert(contenuto, durata) {
         var blocco = document.createElement("div");
